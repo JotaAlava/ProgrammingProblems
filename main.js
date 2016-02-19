@@ -2,7 +2,7 @@
  * Created by jalava on 2/18/2016.
  */
 var binaryCounter = require('./binaryCounter'),
-    cyclicRotation = require('./CyclicRotation'),
+    cyclicRotation = require('./cyclicRotation'),
     oddOccurrencesInArray = require('./oddOccurrencesInArray');
 
 // Happy path for odd occurrences in array
