@@ -3,8 +3,11 @@
  */
 var binaryCounter = require('./binaryCounter'),
     cyclicRotation = require('./cyclicRotation'),
-    oddOccurrencesInArray = require('./oddOccurrencesInArray');
+    oddOccurrencesInArray = require('./oddOccurrencesInArray'),
+    frogJmp = require('./frogJmp');
 
 // Happy path for odd occurrences in array
-var testN = [9,3,9,3,9,7,9];
-console.log(oddOccurrencesInArray.run(testN));
+var x = 0,
+    y = 91,
+    d = 30;
+console.log(frogJmp.run(x,y,d));
